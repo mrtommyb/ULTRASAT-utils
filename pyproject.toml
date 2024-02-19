@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ultrasatutils"
+version = "0.1.0"
+description = ""
+authors = ["Tom Barclay <barclay.astro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.3"
+astropy = "^5.0.4"
+MeanStars = "^3.0.0"
+pysynphot = ">=2.0.0"
+pandas = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
