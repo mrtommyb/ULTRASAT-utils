@@ -27,6 +27,8 @@ CACHEDIR = f"{Path.home()}/.ultrasatutils"
 PHOENIXPATH = f"{CACHEDIR}/data/pysynphot/"
 PHOENIXGRIDPATH = f"{CACHEDIR}/data/pysynphot/grid/phoenix/phoenixm00/"
 
+#### functions to download and interact with the Phoenix models are taken directly from
+#### PandoraSat https://github.com/PandoraMission/pandora-sat written by @christinahedges
 
 def download_file(file_url, file_path):
     # Download the file from `file_url` and save it locally under `file_path`
