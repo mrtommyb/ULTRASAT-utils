@@ -1,6 +1,13 @@
 # ULTRASAT-utils
 Useful tools for planning ULTRASAT observations
 
+### Installation
+```
+pip install ultrasatutils
+```
+Or to install the dev version, clone the repo and use ```poetry install```
+
+### Example useage
 ```python
 import ultrasatutils as usu
 usu.magnitude_to_ULTRASAT(teff=6000, logg=4.35, vmag=12)
